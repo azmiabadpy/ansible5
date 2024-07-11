@@ -1,0 +1,5 @@
+---
+- name: installing mysql server on prod nodes
+  apt:
+    name: mysql-server
+    state: present

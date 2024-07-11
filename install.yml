@@ -1,0 +1,13 @@
+---
+- name: installing java srver
+  hosts: test
+  become: yes
+  roles:
+    - java
+
+
+- name: installing mysql  srver
+  hosts: prod
+  become: yes
+  roles:
+    - mysql      
